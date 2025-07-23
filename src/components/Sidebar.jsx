@@ -49,26 +49,29 @@ const Sidebar = ({ isOpen, onClose }) => {
     { name: 'Quick Costing', icon: <AiOutlineDollarCircle /> },
     { name: 'Pre Order Costing', icon: <AiOutlineDollarCircle /> },
     { name: 'Style Library', icon: <BsBoxSeam /> },
-    { name: 'Requisitions', icon: <RiFileList3Line />  , icons: <MdOutlineKeyboardArrowRight/>},
-    { name: 'Buyer Purchase', icon: <PiPackageFill />, icons: <MdOutlineKeyboardArrowRight/> },
-    { name: 'Inventory', icon: <BsBoxSeam /> , icons: <MdOutlineKeyboardArrowRight/>},
-    { name: 'Sample Development', icon: <IoPeopleCircleOutline /> , icons: <MdOutlineKeyboardArrowRight/>},
-    { name: 'Production', icon: <MdProductionQuantityLimits />, icons: <MdOutlineKeyboardArrowRight/> },
-    { name: 'Master Admin', icon: <FaUserCog /> , icons: <MdOutlineKeyboardArrowRight/>},
-    { name: 'Users', icon: <BsPeople /> , icons: <MdOutlineKeyboardArrowRight/>},
+    { name: 'Requisitions', icon: <RiFileList3Line />, icons: <MdOutlineKeyboardArrowRight /> },
+    { name: 'Buyer Purchase', icon: <PiPackageFill />, icons: <MdOutlineKeyboardArrowRight /> },
+    { name: 'Inventory', icon: <BsBoxSeam />, icons: <MdOutlineKeyboardArrowRight /> },
+    { name: 'Sample Development', icon: <IoPeopleCircleOutline />, icons: <MdOutlineKeyboardArrowRight /> },
+    { name: 'Production', icon: <MdProductionQuantityLimits />, icons: <MdOutlineKeyboardArrowRight /> },
+    { name: 'Master Admin', icon: <FaUserCog />, icons: <MdOutlineKeyboardArrowRight /> },
+    { name: 'Users', icon: <BsPeople />, icons: <MdOutlineKeyboardArrowRight /> },
     { name: 'Suppliers', icon: <BsPeople /> },
-    { name: 'Showroom', icon: <TbBuildingWarehouse />, icons: <MdOutlineKeyboardArrowRight/> },
-    { name: 'Shipment', icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
-</svg>, icons: <MdOutlineKeyboardArrowRight/>},
-    { name: 'KPI’s', icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605" />
-</svg>, icons: <MdOutlineKeyboardArrowRight/>
- },
+    { name: 'Showroom', icon: <TbBuildingWarehouse />, icons: <MdOutlineKeyboardArrowRight /> },
+    {
+      name: 'Shipment', icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+      </svg>, icons: <MdOutlineKeyboardArrowRight />
+    },
+    {
+      name: 'KPI’s', icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605" />
+      </svg>, icons: <MdOutlineKeyboardArrowRight />
+    },
     { name: 'E-Invoice / E-Way Bill', icon: <FaFileInvoice /> },
     { name: 'Reports', icon: <HiOutlineDocumentReport /> },
-    { name: 'Master Data', icon: <RiFileSearchLine /> , icons: <MdOutlineKeyboardArrowRight/>},
-    { name: 'Settings', icon: <RiSettingsLine /> , icons: <MdOutlineKeyboardArrowRight/>}
+    { name: 'Master Data', icon: <RiFileSearchLine />, icons: <MdOutlineKeyboardArrowRight /> },
+    { name: 'Settings', icon: <RiSettingsLine />, icons: <MdOutlineKeyboardArrowRight /> }
   ];
   const onMenuClick = (name) => setSelected(name);
   const onMenuMouseOver = (name) => setHovered(name);
@@ -90,51 +93,51 @@ const Sidebar = ({ isOpen, onClose }) => {
         ></div>
       )}
 
-    <aside
-  className={`fixed  z-40 top-0.5 left-0 w-64 h-screen bg-white shadow-md border-r transform transition-transform duration-300
+      <aside
+        className={`fixed  z-40 top-0.5 left-0 w-64 h-screen bg-white shadow-md border-r transform transition-transform duration-300
     ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 md:relative md:block flex flex-col`}
->
+      >
 
 
-  {/* Scrollable menu */}
-  <nav
-    className="flex-1 p-1 space-y-1  overflow-y-auto scrollbar-thin"
-    aria-label="Sidebar Navigation"
-  >
-    <ul>
-      {menus.map((menu, idx) => {
-        const isSelected = selected === menu.name;
-        const isHovered = hovered === menu.name;
+        {/* Scrollable menu */}
+        <nav
+          className="flex-1 p-1 space-y-1  overflow-y-auto scrollbar-thin"
+          aria-label="Sidebar Navigation"
+        >
+          <ul>
+            {menus.map((menu, idx) => {
+              const isSelected = selected === menu.name;
+              const isHovered = hovered === menu.name;
 
-        return (
-<li
-  key={idx}
-  role="button"
-  tabIndex={0}
-  aria-current={isSelected ? 'page' : undefined}
-  onClick={() => onMenuClick(menu.name)}
-  onMouseOver={() => onMenuMouseOver(menu.name)}
-  onMouseOut={onMenuMouseOut}
-  onKeyDown={(e) => onMenuKeyDown(e, menu.name)}
-  className={`w-full px-4 py-1.5 flex justify-between items-center text-[12px] font-semibold text-gray-600 cursor-pointer rounded-2xl transition-colors
+              return (
+                <li
+                  key={idx}
+                  role="button"
+                  tabIndex={0}
+                  aria-current={isSelected ? 'page' : undefined}
+                  onClick={() => onMenuClick(menu.name)}
+                  onMouseOver={() => onMenuMouseOver(menu.name)}
+                  onMouseOut={onMenuMouseOut}
+                  onKeyDown={(e) => onMenuKeyDown(e, menu.name)}
+                  className={`w-full px-4 py-1.5 flex justify-between items-center text-[12px] font-semibold text-gray-600 cursor-pointer rounded-2xl transition-colors
     ${isSelected ? 'bg-gray-200 text-purple-700 font-semibold' : isHovered ? 'text-purple-700' : 'text-black'}`}
->
-  <div className="flex items-center gap-2">
-    <span className="text-base">{menu.icon}</span>
-    <span className="whitespace-nowrap">{menu.name}</span>
-  </div>
-  {menu.icons && (
-    <span className="text-xl text-gray-400">
-      {menu.icons}
-    </span>
-  )}
-</li>
+                >
+                  <div className="flex items-center gap-2">
+                    <span className="text-base">{menu.icon}</span>
+                    <span className="whitespace-nowrap">{menu.name}</span>
+                  </div>
+                  {menu.icons && (
+                    <span className="text-xl text-gray-400">
+                      {menu.icons}
+                    </span>
+                  )}
+                </li>
 
-        );
-      })}
-    </ul>
-  </nav>
-</aside>
+              );
+            })}
+          </ul>
+        </nav>
+      </aside>
 
     </>
   );

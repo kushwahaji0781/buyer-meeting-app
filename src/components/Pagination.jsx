@@ -15,11 +15,10 @@ const Pagination = () => (
       {[1, 2, 3, 4, '...', 10, 11, 12].map((n, i) => (
         <button
           key={i}
-          className={`px-2 py-1 text-xs rounded ${
-            n === 1
+          className={`px-2 py-1 text-xs rounded ${n === 1
               ? 'bg-purple-600 text-white'
               : 'bg-gray-100 text-gray-700 hover:bg-purple-100'
-          }`}
+            }`}
         >
           {n}
         </button>

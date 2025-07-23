@@ -173,17 +173,17 @@ const Header = ({ toggleSidebar }) => {
             onKeyDown={(e) => handleKeyToggle(e, toggleUserMenu)}
             className="flex items-center gap-2 cursor-pointer"
           >
-<div className="flex items-center space-x-2">
-  <img
-    src="/profile.png"
-    alt="User Avatar"
-    className="h-9 w-9 rounded-full object-cover"
-  />
-  <div className="text-sm font-bold text-gray-700 whitespace-nowrap leading-tight">
-    <div>Mohd Saleem</div>
-    <div className="text-xs font-normal text-gray-500">(Admin)</div>
-  </div>
-</div>
+            <div className="flex items-center space-x-2">
+              <img
+                src="/profile.png"
+                alt="User Avatar"
+                className="h-9 w-9 rounded-full object-cover"
+              />
+              <div className="text-sm font-bold text-gray-700 whitespace-nowrap leading-tight">
+                <div>Mohd Saleem</div>
+                <div className="text-xs font-normal text-gray-500">(Admin)</div>
+              </div>
+            </div>
 
 
 
@@ -194,11 +194,11 @@ const Header = ({ toggleSidebar }) => {
             <div className="absolute right-0 top-12 bg-white border rounded shadow-lg w-44 z-50">
               <ul className="text-sm">
                 <li className="px-4 py-2 hover:bg-gray-200 flex items-center gap-2 cursor-pointer">
-             <FiUser  className="text-gray-600" />
+                  <FiUser className="text-gray-600" />
                   <span className="text-gray-600">Profile</span>
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-200 flex items-center gap-2 cursor-pointer">
-             <FiSettings  className="text-gray-600" />
+                  <FiSettings className="text-gray-600" />
                   <span className="text-gray-600">Settings</span>
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-200 flex items-center gap-2 cursor-pointer">

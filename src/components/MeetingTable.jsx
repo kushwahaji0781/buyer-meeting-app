@@ -133,7 +133,7 @@ const ActionMenu = ({ id }) => {
       </button>
       {open && (
         <div className="absolute right-0 top-6 w-40 bg-white shadow border rounded z-50 text-sm">
-          <ul className="text-gray-700">
+          <ul className="text-gray-400">
             <li className="flex items-center gap-2 px-3 py-2 font-semibold hover:bg-gray-100 cursor-pointer">
               <Eye size={14} /> View
             </li>
@@ -249,11 +249,7 @@ const MeetingTable = () => {
                       </label>
                     </td>
                     <td className="px-6 py-.5  text-[12px] whitespace-nowrap">{item.dateTime}</td>
-                    {/* <td className="px-6 py-1 ">
-                      <span className={`px-2 py-0.5 text-white rounded text-[10px] whitespace-nowrap ${statusClasses[item.status]}`}>
-                         {item.status}                   
-                      </span>
-                    </td> */}
+
                     <td className="px-6 py-1">
                       <div
                         className={`inline-flex items-center justify-center gap-1 px-2 py-0.5 rounded text-white text-[10px] whitespace-nowrap ${statusClasses[item.status]}`}

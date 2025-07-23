@@ -72,7 +72,7 @@ const Header = ({ toggleSidebar }) => {
           {showMessageBox && (
             <div className="absolute right-0 top-12 z-50 w-80 bg-gray-100 p-4 border border-gray-300 rounded shadow-lg">
               <div className="flex justify-between items-center mb-4">
-                <h2 className="text-lg font-bold">Chat</h2>
+                <h2 className="text-lg text-black  font-bold">Chat</h2>
                 <span className="bg-green-500 text-white px-2 py-1 rounded text-xs">
                   {messages.length} new
                 </span>
@@ -126,7 +126,7 @@ const Header = ({ toggleSidebar }) => {
           {showNotificationBox && (
             <div className="absolute right-0 top-12 z-50 w-80 bg-gray-100 p-4 border border-gray-300 rounded shadow-lg">
               <div className="flex justify-between items-center mb-4">
-                <h2 className="text-lg font-bold">Notifications</h2>
+                <h2 className="text-lg text-black font-bold">Notifications</h2>
                 <span className="bg-green-500 text-white px-2 py-1 rounded text-xs">
                   {messages.length} new
                 </span>

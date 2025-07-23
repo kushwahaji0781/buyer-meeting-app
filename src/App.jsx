@@ -27,7 +27,6 @@ function App() {
         <main className="flex-1 p-4 sm:p-6 overflow-y-auto scrollbar-hide h-full">
           <Breadcrumb />
           <FilterTabs />
-          {/* Optional: Uncomment if Filters needed */}
           {/* <Filters /> */}
 
           <div className="bg-white rounded shadow p-4 mt-4 flex flex-col">
